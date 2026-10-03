@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int tempo;
+            int distancia = int.Parse(Console.ReadLine());
+
+            tempo = distancia * 2;
+            Console.WriteLine($"{tempo} minutos");
         }
     }
 }

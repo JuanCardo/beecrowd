@@ -18,19 +18,6 @@
             resultado = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
 
             Console.WriteLine($"{resultado:F4}");
-            /*
-            double x1, y1, x2, y2;
-            double resultado;
-
-            x1 = double.Parse(Console.ReadLine());
-            y1 = double.Parse(Console.ReadLine());
-            x2 = double.Parse(Console.ReadLine());
-            y2 = double.Parse(Console.ReadLine());
-
-            resultado = Math.Sqrt(Math.Pow(x2-x1,2) + Math.Pow(y2-y1,2));
-
-            Console.WriteLine($"{resultado:F4}");
-            */
         }
     }
 }
